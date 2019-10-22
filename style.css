@@ -1,20 +1,20 @@
 .hunterlogo {
-	position: absolute; left: 10px; top: 10px; width: 141px;
-	
+	position: absolute; left: 10px; top: 10px; width: 141px;	
 }
+
 .hunter-nav {
 		background-image: none;
 }
-	.navbar-collapse {
-		margin-left: 140px
-	}
+.navbar-collapse {
+	margin-left: 140px
+}
 
 .carousel-caption {
 	background-color: rgba(200,200,200, 0.8);
 	color: #212121;
 	padding: 20px;
-	left: 15%;
-	right: 15%;
+	left: 10%;
+	right: 10%;
 }
 
 .btn-success {
@@ -25,10 +25,36 @@
 	background-color: rgba(255,255,255, 0.8);
 }
 
- 
+.first-slide {
+	background-image: url(images/tillicum.jpg); 
+	background-size: 100% 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	width: 100%;
+	background-color: #a9a9a9;
+}
+.second-slide {
+	background-image: url(images/cityscape.jpg); 
+	background-size: 100% 100%;  
+	background-position: center;
+	background-repeat: no-repeat;
+	width: 100%;
+	background-color: #a9a9a9;
+}
+.third-slide {
+	background-image: url(images/van.jpg); 
+	background-size: auto;
+	background-position: center;
+	background-repeat: no-repeat;
+	width: 100%;
+	background-color: #a9a9a9;
+}
+
 @media (max-width: 600px) {
+	
 	.navbar-collapse {
-		margin-left: 105px
+		margin-left: 105px;
+		text-align: center;
 	}
 	
 	.hunterlogo {
@@ -38,10 +64,11 @@
 	.hunter-nav {
 		background-image: none;
 	}
-.carousel-caption {
-	left: 10%;
-	right: 10%;
-}
+	
+	.carousel-caption {
+		left: 10%;
+		right: 10%;
+	}
 
 
 }
