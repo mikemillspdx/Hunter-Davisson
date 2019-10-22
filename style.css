@@ -1,10 +1,19 @@
 .hunterlogo {
 	position: absolute; left: 10px; top: 10px; width: 141px;
+	
 }
- 
+.hunter-nav {
+		background-image: none;
+}
+
  
 @media (max-width: 600px) {
-  .hunterlogo {
-	position: absolute; left: 10px; top: 10px; width: 100px;
-  }
+	.hunterlogo {
+		position: absolute; left: 10px; top: 10px; width: 100px; 
+	}
+  
+	.hunter-nav {
+		background-image: none;
+	}
+
 }
