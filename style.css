@@ -13,8 +13,8 @@
 	background-color: rgba(200,200,200, 0.8);
 	color: #212121;
 	padding: 20px;
-	left: 5%;
-	right: 5%;
+	left: 15%;
+	right: 15%;
 }
 
 .btn-success {
@@ -38,5 +38,10 @@
 	.hunter-nav {
 		background-image: none;
 	}
+.carousel-caption {
+	left: 10%;
+	right: 10%;
+}
+
 
 }
