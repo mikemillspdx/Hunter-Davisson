@@ -6,6 +6,20 @@
 		background-image: none;
 }
 
+.carousel-caption {
+	background-color: rgba(200,200,200, 0.8);
+	color: #212121;
+	padding: 20px;
+}
+
+.btn-success {
+	background-color:#206f3f;
+}
+
+.dropdown-menu {
+	background-color: rgba(255,255,255, 0.8);
+}
+
  
 @media (max-width: 600px) {
 	.hunterlogo {
