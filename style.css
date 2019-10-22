@@ -10,6 +10,8 @@
 	background-color: rgba(200,200,200, 0.8);
 	color: #212121;
 	padding: 20px;
+	left: 5%;
+	right: 5%;
 }
 
 .btn-success {
