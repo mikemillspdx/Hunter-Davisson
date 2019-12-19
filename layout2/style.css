@@ -100,6 +100,9 @@ body {
 }
 @media (max-width: 600px) {
 
+.nav-pills .nav-item .nav-link {
+	padding: 0px 0px !important;
+}
 	.navbar-collapse {
 		margin-left: 105px;
 	}
