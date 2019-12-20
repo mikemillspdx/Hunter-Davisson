@@ -1,6 +1,16 @@
 .hunterlogo {
 	position: absolute; left: 10px; top: 10px; width: 100px; z-index: 1000;
 }
+.brand {
+        background: rgba(44,44,44, 0.95) !important;
+        background: linear-gradient(90deg,  rgba(44,44,44, 0.4) 0%, rgba(44,44,44, 0.6) 100%) !important;
+        background: -moz-linear-gradient(90deg,  rgba(44,44,44, 0.4) 0%, rgba(44,44,44, 0.6) 100%) !important;
+        background: -webkit-linear-gradient(90deg,  rgba(10,10,10, 0.4) 0%, rgba(10,10,10, 0.6) 100%) !important;
+	border-radius: 8px;
+	border: solid 1px #444;
+	padding: 30px;
+	color: #d4d4d4 !important;
+}
 
 .hunter-nav {
 		background-image: none;
@@ -9,19 +19,26 @@
 	margin-left: 140px
 }
 
+.card .card-header {
+	margin-left: 0px !important;
+	margin-right: 0px  !important;
+}
+
 .carousel-caption {
 	background-color: rgba(200,212,200, 0.9);
 	border-radius: 6px;
 	box-shadow: 3px 3px 5px #222222;
 	color: #242424;
 	padding: 20px;
-	left: 20%;
-	right: 20%;
+	left: 15%;
+	right: 15%;
 }
 
 .btn-success {
 	background-color:#206f3f;
 }
+
+
 
 .dropdown-menu {
 	background-color: rgba(255,255,255, 0.8);
@@ -49,16 +66,24 @@
 	background-position: center;
 	background-repeat: no-repeat;
 	width: 100%;
-	background-color: #a9a9a9;
+	background-color: #ccc;
 }
-.body {
-	background-color: #a9a9a9;
+body {
+	background-color: #fff !important;
 }
 .header-filter:after {
-        background: rgba(13, 144, 13, 0.88) !important;
-        background: linear-gradient(45deg,  rgba(13, 144, 13, 0.88) 0%, rgba(44, 210, 44, 0.31) 100%) !important;
-        background: -moz-linear-gradient(135deg,  rgba(13, 144, 13, 0.88) 0%, rgba(44, 210, 44, 0.31) 100%) !important;
-        background: -webkit-linear-gradient(135deg,  rgba(13, 144, 13, 0.88) 0%, rgba(44, 210, 44, 0.31) 100%) !important;
+        background: rgba(44,44,44, 0.95) !important;
+        background: linear-gradient(45deg,  rgba(44,44,44, 0.5) 0%, rgba(44,44,44, 0.5) 100%) !important;
+        background: -moz-linear-gradient(135deg,  rgba(44,44,44, 0.5) 0%, rgba(44,44,44, 0.5) 100%) !important;
+        background: -webkit-linear-gradient(135deg,  rgba(10,10,10, 0.30) 0%, rgba(10,10,10, 0.20) 100%) !important;
+}
+
+.btn-success {
+	background-color: #216f3f !important;
+}
+
+.subpage-header {
+	height: 40vh !important;
 }
 
 
@@ -68,14 +93,22 @@
         padding-top: 25px;
         color: $white-color;
     }
+
+.main-raised {
+	margin: -80px 0px 0px !important;
+	border-radius: 0px !important;
+}
 @media (max-width: 600px) {
 
+.nav-pills .nav-item .nav-link {
+	padding: 0px 0px !important;
+}
 	.navbar-collapse {
 		margin-left: 105px;
 	}
 
 	.hunterlogo {
-		position: absolute; left: 10px; top: 10px; width: 60px;
+		position: absolute; left: 10px; top: 10px; width: 80px;
 	}
 
 	.hunter-nav {
