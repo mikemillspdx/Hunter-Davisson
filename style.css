@@ -59,6 +59,18 @@
 	margin-right: 0px  !important;
 }
 
+.card .card-header.card-header-image .card-title {
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    color: #fafafa;
+    font-size: 1.125rem;
+    text-shadow: 0 2px 2px rgba(0,0,0, 1) !important;
+	}
+
+ 
+
+
 .carousel-caption {
 	background-color: rgba(200,212,200, 0.9);
 	border-radius: 6px;
