@@ -11,6 +11,9 @@
 	padding: 30px;
 	color: #d4d4d4 !important;
 }
+.top {
+	vertical-align: top;
+}
 .work-box {
     width: 180px;
     height: 125px;
@@ -48,6 +51,7 @@
 }
 .img {
 	cursor: pointer;
+	max-height: 150px;
 }
 .post-content a:hover {
     text-decoration: none;
@@ -201,6 +205,9 @@ body {
     max-width: 1000px !important;
     width: 90%;
     margin: 1.75rem auto;
+}
+.img {
+	cursor: pointer;
 }
 }
 @media (max-width: 1200px) {
