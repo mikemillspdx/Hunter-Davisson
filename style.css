@@ -51,6 +51,9 @@
 }
 .img {
 	cursor: pointer;
+}
+
+.portfolio_img {
 	max-height: 150px;
 }
 .post-content a:hover {
@@ -206,9 +209,6 @@ body {
     width: 90%;
     margin: 1.75rem auto;
 }
-.img {
-	cursor: pointer;
-}
 }
 @media (max-width: 1200px) {
 
@@ -220,6 +220,9 @@ body {
 
 @media (max-width: 800px) {
 
+	.img {
+		cursor: pointer;
+	}
 	.page-header {
 		height: 110vh !important;
 	}
