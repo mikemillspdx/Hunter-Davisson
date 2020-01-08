@@ -226,6 +226,10 @@ body {
 	    right: -20px;
 	    top: 100px;
 	}
+
+	.page-header {
+		height: 70vh !important;
+	}
 }
 
 @media (max-width: 800px) {
