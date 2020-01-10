@@ -12,6 +12,10 @@
 	color: #131313 !important;
 }
 
+.footer-text {
+	font-size: 10pt;
+}
+
 .brandcontainer {
     position: absolute !important;
     right: -60px;
