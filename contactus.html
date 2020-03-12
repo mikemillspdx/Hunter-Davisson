@@ -306,30 +306,7 @@
   <!-- Control Center for Material Kit: parallax effects, scripts for the example pages etc -->
   <script src="./assets/js/material-kit.js?v=2.2.0" type="text/javascript"></script>
   <script>
-
-    function getUrlParameter(name) {
-        name = name.replace(/[\[]/, '\\[').replace(/[\]]/, '\\]');
-        var regex = new RegExp('[\\?&]' + name + '=([^&#]*)');
-        var results = regex.exec(location.search);
-        return results === null ? '' : decodeURIComponent(results[1].replace(/\+/g, ' '));
-    };
-
     $(document).ready(function() {
-      var page = getUrlParameter("p");
-      if(page == ""){
-        //document.getElementById('contentDiv').innerHTML="";
-      }
-      else{
-        var targetPage = 'subpages/' + page + '.htm';
-        var xhr= new XMLHttpRequest();
-        xhr.open('GET', targetPage, true);
-        xhr.onreadystatechange= function() {
-            if (this.readyState!==4) return;
-            if (this.status!==200) return; // or whatever error handling you want
-            document.getElementById('contentDiv').innerHTML= this.responseText;
-        };
-        xhr.send();
-      }
       //init DateTimePickers
       //materialKit.initFormExtendedDatetimepickers();
 
@@ -338,6 +315,6 @@
     });
   </script>
 
-</body>
+  </body>
 
-</html>
+  </html>
