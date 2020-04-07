@@ -65,6 +65,7 @@
 
 .portfolio_img {
 	max-height: 150px;
+	border-radius: 0px;
 }
 .post-content a:hover {
     text-decoration: none;
@@ -94,6 +95,28 @@
     font-size: 1.125rem;
     text-shadow: 0 2px 2px rgba(0,0,0, 1) !important;
 	}
+
+	.card .card-header.card-header-image .portfolio-title {
+		position: absolute;
+		    top: 5px;
+		    left: 0px;
+		    color: #fafafa;
+		    text-shadow: 0 2px 2px rgba(0,0,0, 1) !important;
+		    background-color: rgba(0,0,0,0.4);
+		    padding: 4px;
+		    width: 100%;
+		    height: 30px;
+				border solid 1px black;
+				font-weight: bold;
+		}
+
+		.card :hover {
+			    font-size: 1rem;
+			}
+
+.colored-shadow {
+	width: 0% !important;
+}
 
 	img.color-portrait {
 	    float: left;
