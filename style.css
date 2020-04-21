@@ -75,7 +75,6 @@ text-shadow: 0 2px 2px rgba(0,0,0, 1) !important;
 }
 
 .portfolio_img {
-	max-height: 150px;
 	border-radius: 0px;
 }
 .post-content a:hover {
@@ -121,7 +120,7 @@ text-shadow: 0 2px 2px rgba(0,0,0, 1) !important;
 				font-weight: bold;
 		}
 
-		 
+
 
 .colored-shadow {
 	width: 0% !important;
